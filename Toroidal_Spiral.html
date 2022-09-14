@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>toroidal spiral</title>
+</head>
+<style>
+    * {
+        padding: 0px;
+        margin: 0px;
+        overflow: hidden;
+    }
+
+    #heading {
+        top: 10px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+    }
+
+    .container2 {
+        top: 20px;
+        width: 100%;
+        text-align: center;
+        z-index: 100;
+        display: block;
+    }
+
+    button {
+        background-color: red;
+        padding: 5px;
+        border: none;
+        border-radius: 80%;
+        border-radius: 10px;
+    }
+
+    button:hover {
+        background-color: pink;
+    }
+</style>
+
+<body>
+    <div class="container1">
+        <h1 id="heading"></h1>
+    </div>
+    <div class="container2">
+        <button id="button">DONT PRESS ME</button>
+    </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r99/three.min.js"></script>
+    <script src="Toroidal_Spiral.js"></script>
+
+
+</body>
+
+</html>
